@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEB956451C619D24004646DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB956441C619D24004646DA /* main.m */; };
+		EEB956481C619D24004646DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB956471C619D24004646DA /* AppDelegate.m */; };
+		EEB9564B1C619D24004646DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB9564A1C619D24004646DA /* ViewController.m */; };
+		EEB9564E1C619D24004646DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB9564C1C619D24004646DA /* Main.storyboard */; };
+		EEB956511C619D24004646DA /* hzch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EEB9564F1C619D24004646DA /* hzch.xcdatamodeld */; };
+		EEB956531C619D24004646DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB956521C619D24004646DA /* Assets.xcassets */; };
+		EEB956561C619D24004646DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB956541C619D24004646DA /* LaunchScreen.storyboard */; };
+		EEB956611C619D24004646DA /* hzchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB956601C619D24004646DA /* hzchTests.m */; };
+		EEB9566C1C619D24004646DA /* hzchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB9566B1C619D24004646DA /* hzchUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEB9565D1C619D24004646DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEB956381C619D24004646DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEB9563F1C619D24004646DA;
+			remoteInfo = hzch;
+		};
+		EEB956681C619D24004646DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEB956381C619D24004646DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEB9563F1C619D24004646DA;
+			remoteInfo = hzch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EEB956401C619D24004646DA /* hzch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hzch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB956441C619D24004646DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEB956461C619D24004646DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEB956471C619D24004646DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EEB956491C619D24004646DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EEB9564A1C619D24004646DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EEB9564D1C619D24004646DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEB956501C619D24004646DA /* hzch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = hzch.xcdatamodel; sourceTree = "<group>"; };
+		EEB956521C619D24004646DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEB956551C619D24004646DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEB956571C619D24004646DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEB9565C1C619D24004646DA /* hzchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hzchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB956601C619D24004646DA /* hzchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hzchTests.m; sourceTree = "<group>"; };
+		EEB956621C619D24004646DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEB956671C619D24004646DA /* hzchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hzchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB9566B1C619D24004646DA /* hzchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hzchUITests.m; sourceTree = "<group>"; };
+		EEB9566D1C619D24004646DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEB9563D1C619D24004646DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB956591C619D24004646DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB956641C619D24004646DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEB956371C619D24004646DA = {
+			isa = PBXGroup;
+			children = (
+				EEB956421C619D24004646DA /* hzch */,
+				EEB9565F1C619D24004646DA /* hzchTests */,
+				EEB9566A1C619D24004646DA /* hzchUITests */,
+				EEB956411C619D24004646DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEB956411C619D24004646DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEB956401C619D24004646DA /* hzch.app */,
+				EEB9565C1C619D24004646DA /* hzchTests.xctest */,
+				EEB956671C619D24004646DA /* hzchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEB956421C619D24004646DA /* hzch */ = {
+			isa = PBXGroup;
+			children = (
+				EEB956461C619D24004646DA /* AppDelegate.h */,
+				EEB956471C619D24004646DA /* AppDelegate.m */,
+				EEB956491C619D24004646DA /* ViewController.h */,
+				EEB9564A1C619D24004646DA /* ViewController.m */,
+				EEB9564C1C619D24004646DA /* Main.storyboard */,
+				EEB956521C619D24004646DA /* Assets.xcassets */,
+				EEB956541C619D24004646DA /* LaunchScreen.storyboard */,
+				EEB956571C619D24004646DA /* Info.plist */,
+				EEB9564F1C619D24004646DA /* hzch.xcdatamodeld */,
+				EEB956431C619D24004646DA /* Supporting Files */,
+			);
+			path = hzch;
+			sourceTree = "<group>";
+		};
+		EEB956431C619D24004646DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEB956441C619D24004646DA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEB9565F1C619D24004646DA /* hzchTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEB956601C619D24004646DA /* hzchTests.m */,
+				EEB956621C619D24004646DA /* Info.plist */,
+			);
+			path = hzchTests;
+			sourceTree = "<group>";
+		};
+		EEB9566A1C619D24004646DA /* hzchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEB9566B1C619D24004646DA /* hzchUITests.m */,
+				EEB9566D1C619D24004646DA /* Info.plist */,
+			);
+			path = hzchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEB9563F1C619D24004646DA /* hzch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB956701C619D24004646DA /* Build configuration list for PBXNativeTarget "hzch" */;
+			buildPhases = (
+				EEB9563C1C619D24004646DA /* Sources */,
+				EEB9563D1C619D24004646DA /* Frameworks */,
+				EEB9563E1C619D24004646DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hzch;
+			productName = hzch;
+			productReference = EEB956401C619D24004646DA /* hzch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEB9565B1C619D24004646DA /* hzchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB956731C619D24004646DA /* Build configuration list for PBXNativeTarget "hzchTests" */;
+			buildPhases = (
+				EEB956581C619D24004646DA /* Sources */,
+				EEB956591C619D24004646DA /* Frameworks */,
+				EEB9565A1C619D24004646DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEB9565E1C619D24004646DA /* PBXTargetDependency */,
+			);
+			name = hzchTests;
+			productName = hzchTests;
+			productReference = EEB9565C1C619D24004646DA /* hzchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEB956661C619D24004646DA /* hzchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB956761C619D24004646DA /* Build configuration list for PBXNativeTarget "hzchUITests" */;
+			buildPhases = (
+				EEB956631C619D24004646DA /* Sources */,
+				EEB956641C619D24004646DA /* Frameworks */,
+				EEB956651C619D24004646DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEB956691C619D24004646DA /* PBXTargetDependency */,
+			);
+			name = hzchUITests;
+			productName = hzchUITests;
+			productReference = EEB956671C619D24004646DA /* hzchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEB956381C619D24004646DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = hzch;
+				TargetAttributes = {
+					EEB9563F1C619D24004646DA = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					EEB9565B1C619D24004646DA = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = EEB9563F1C619D24004646DA;
+					};
+					EEB956661C619D24004646DA = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = EEB9563F1C619D24004646DA;
+					};
+				};
+			};
+			buildConfigurationList = EEB9563B1C619D24004646DA /* Build configuration list for PBXProject "hzch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEB956371C619D24004646DA;
+			productRefGroup = EEB956411C619D24004646DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEB9563F1C619D24004646DA /* hzch */,
+				EEB9565B1C619D24004646DA /* hzchTests */,
+				EEB956661C619D24004646DA /* hzchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEB9563E1C619D24004646DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB956561C619D24004646DA /* LaunchScreen.storyboard in Resources */,
+				EEB956531C619D24004646DA /* Assets.xcassets in Resources */,
+				EEB9564E1C619D24004646DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB9565A1C619D24004646DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB956651C619D24004646DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEB9563C1C619D24004646DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB9564B1C619D24004646DA /* ViewController.m in Sources */,
+				EEB956481C619D24004646DA /* AppDelegate.m in Sources */,
+				EEB956511C619D24004646DA /* hzch.xcdatamodeld in Sources */,
+				EEB956451C619D24004646DA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB956581C619D24004646DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB956611C619D24004646DA /* hzchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB956631C619D24004646DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB9566C1C619D24004646DA /* hzchUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEB9565E1C619D24004646DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEB9563F1C619D24004646DA /* hzch */;
+			targetProxy = EEB9565D1C619D24004646DA /* PBXContainerItemProxy */;
+		};
+		EEB956691C619D24004646DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEB9563F1C619D24004646DA /* hzch */;
+			targetProxy = EEB956681C619D24004646DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEB9564C1C619D24004646DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEB9564D1C619D24004646DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEB956541C619D24004646DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEB956551C619D24004646DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEB9566E1C619D24004646DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEB9566F1C619D24004646DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEB956711C619D24004646DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hzch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hzch.hzch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEB956721C619D24004646DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hzch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hzch.hzch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EEB956741C619D24004646DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hzchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hzch.hzchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hzch.app/hzch";
+			};
+			name = Debug;
+		};
+		EEB956751C619D24004646DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hzchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hzch.hzchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hzch.app/hzch";
+			};
+			name = Release;
+		};
+		EEB956771C619D24004646DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = hzchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hzch.hzchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = hzch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EEB956781C619D24004646DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = hzchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hzch.hzchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = hzch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEB9563B1C619D24004646DA /* Build configuration list for PBXProject "hzch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB9566E1C619D24004646DA /* Debug */,
+				EEB9566F1C619D24004646DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEB956701C619D24004646DA /* Build configuration list for PBXNativeTarget "hzch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB956711C619D24004646DA /* Debug */,
+				EEB956721C619D24004646DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EEB956731C619D24004646DA /* Build configuration list for PBXNativeTarget "hzchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB956741C619D24004646DA /* Debug */,
+				EEB956751C619D24004646DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EEB956761C619D24004646DA /* Build configuration list for PBXNativeTarget "hzchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB956771C619D24004646DA /* Debug */,
+				EEB956781C619D24004646DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EEB9564F1C619D24004646DA /* hzch.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EEB956501C619D24004646DA /* hzch.xcdatamodel */,
+			);
+			currentVersion = EEB956501C619D24004646DA /* hzch.xcdatamodel */;
+			path = hzch.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EEB956381C619D24004646DA /* Project object */;
+}
