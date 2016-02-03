@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  JCHProjects
+
+  Created by JiangChunhui on 14-8-14.
+  Copyright (c) 2014年 Mail_Mac. All rights reserved.
+*/
+
+"English" = "中文";
+
+"JCH.Localization.English" = "中文";

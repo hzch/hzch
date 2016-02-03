@@ -16,6 +16,22 @@
 		EEB956561C619D24004646DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB956541C619D24004646DA /* LaunchScreen.storyboard */; };
 		EEB956611C619D24004646DA /* hzchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB956601C619D24004646DA /* hzchTests.m */; };
 		EEB9566C1C619D24004646DA /* hzchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB9566B1C619D24004646DA /* hzchUITests.m */; };
+		EEB9568B1C61A08D004646DA /* JCHCATransform3D.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB9567C1C61A08D004646DA /* JCHCATransform3D.m */; };
+		EEB9568C1C61A08D004646DA /* JCHAutoLayoutProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB9567F1C61A08D004646DA /* JCHAutoLayoutProgram.m */; };
+		EEB9568D1C61A08D004646DA /* JCHSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB956821C61A08D004646DA /* JCHSingleton.m */; };
+		EEB9568E1C61A08D004646DA /* JCHGCD.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB956851C61A08D004646DA /* JCHGCD.m */; };
+		EEB9568F1C61A08D004646DA /* image@2x~ipad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EEB956871C61A08D004646DA /* image@2x~ipad.jpg */; };
+		EEB956901C61A08D004646DA /* image@2x~iphone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EEB956881C61A08D004646DA /* image@2x~iphone.jpg */; };
+		EEB956911C61A08D004646DA /* image~ipad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EEB956891C61A08D004646DA /* image~ipad.jpg */; };
+		EEB956921C61A08D004646DA /* image~iphone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EEB9568A1C61A08D004646DA /* image~iphone.jpg */; };
+		EEB956A01C61A606004646DA /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EEB956941C61A606004646DA /* image.jpg */; };
+		EEB956A11C61A606004646DA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEB956961C61A606004646DA /* Localizable.strings */; };
+		EEB956A21C61A606004646DA /* JCHLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB956991C61A606004646DA /* JCHLocalization.m */; };
+		EEB956A31C61A606004646DA /* LocalizationsUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB9569B1C61A606004646DA /* LocalizationsUtil.m */; };
+		EEB956A41C61A606004646DA /* NSString+Localizations.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB9569D1C61A606004646DA /* NSString+Localizations.m */; };
+		EEB956AD1C61A6D2004646DA /* NLCoreAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB956A71C61A6D2004646DA /* NLCoreAnimation.m */; };
+		EEB956AE1C61A6D2004646DA /* NLCoreGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB956A91C61A6D2004646DA /* NLCoreGraphics.m */; };
+		EEB956AF1C61A6D2004646DA /* NLMath.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB956AB1C61A6D2004646DA /* NLMath.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +69,35 @@
 		EEB956671C619D24004646DA /* hzchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hzchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEB9566B1C619D24004646DA /* hzchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hzchUITests.m; sourceTree = "<group>"; };
 		EEB9566D1C619D24004646DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEB9567B1C61A08D004646DA /* JCHCATransform3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCHCATransform3D.h; sourceTree = "<group>"; };
+		EEB9567C1C61A08D004646DA /* JCHCATransform3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCHCATransform3D.m; sourceTree = "<group>"; };
+		EEB9567E1C61A08D004646DA /* JCHAutoLayoutProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCHAutoLayoutProgram.h; sourceTree = "<group>"; };
+		EEB9567F1C61A08D004646DA /* JCHAutoLayoutProgram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCHAutoLayoutProgram.m; sourceTree = "<group>"; };
+		EEB956811C61A08D004646DA /* JCHSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCHSingleton.h; sourceTree = "<group>"; };
+		EEB956821C61A08D004646DA /* JCHSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCHSingleton.m; sourceTree = "<group>"; };
+		EEB956841C61A08D004646DA /* JCHGCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCHGCD.h; sourceTree = "<group>"; };
+		EEB956851C61A08D004646DA /* JCHGCD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCHGCD.m; sourceTree = "<group>"; };
+		EEB956871C61A08D004646DA /* image@2x~ipad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image@2x~ipad.jpg"; sourceTree = "<group>"; };
+		EEB956881C61A08D004646DA /* image@2x~iphone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image@2x~iphone.jpg"; sourceTree = "<group>"; };
+		EEB956891C61A08D004646DA /* image~ipad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image~ipad.jpg"; sourceTree = "<group>"; };
+		EEB9568A1C61A08D004646DA /* image~iphone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "image~iphone.jpg"; sourceTree = "<group>"; };
+		EEB956951C61A606004646DA /* en */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = en; path = en.lproj/image.jpg; sourceTree = "<group>"; };
+		EEB956971C61A606004646DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EEB956981C61A606004646DA /* JCHLocalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCHLocalization.h; sourceTree = "<group>"; };
+		EEB956991C61A606004646DA /* JCHLocalization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCHLocalization.m; sourceTree = "<group>"; };
+		EEB9569A1C61A606004646DA /* LocalizationsUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalizationsUtil.h; sourceTree = "<group>"; };
+		EEB9569B1C61A606004646DA /* LocalizationsUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalizationsUtil.m; sourceTree = "<group>"; };
+		EEB9569C1C61A606004646DA /* NSString+Localizations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Localizations.h"; sourceTree = "<group>"; };
+		EEB9569D1C61A606004646DA /* NSString+Localizations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Localizations.m"; sourceTree = "<group>"; };
+		EEB9569E1C61A606004646DA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "zh-Hans"; path = "zh-Hans.lproj/image.jpg"; sourceTree = "<group>"; };
+		EEB9569F1C61A606004646DA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		EEB956A61C61A6D2004646DA /* NLCoreAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLCoreAnimation.h; sourceTree = "<group>"; };
+		EEB956A71C61A6D2004646DA /* NLCoreAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLCoreAnimation.m; sourceTree = "<group>"; };
+		EEB956A81C61A6D2004646DA /* NLCoreGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLCoreGraphics.h; sourceTree = "<group>"; };
+		EEB956A91C61A6D2004646DA /* NLCoreGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLCoreGraphics.m; sourceTree = "<group>"; };
+		EEB956AA1C61A6D2004646DA /* NLMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLMath.h; sourceTree = "<group>"; };
+		EEB956AB1C61A6D2004646DA /* NLMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLMath.m; sourceTree = "<group>"; };
+		EEB956AC1C61A6D2004646DA /* NLNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLNote.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +148,7 @@
 		EEB956421C619D24004646DA /* hzch */ = {
 			isa = PBXGroup;
 			children = (
+				EEB956791C61A08D004646DA /* Class */,
 				EEB956461C619D24004646DA /* AppDelegate.h */,
 				EEB956471C619D24004646DA /* AppDelegate.m */,
 				EEB956491C619D24004646DA /* ViewController.h */,
@@ -141,6 +187,96 @@
 				EEB9566D1C619D24004646DA /* Info.plist */,
 			);
 			path = hzchUITests;
+			sourceTree = "<group>";
+		};
+		EEB956791C61A08D004646DA /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				EEB956A51C61A6D2004646DA /* Guide */,
+				EEB9567A1C61A08D004646DA /* Animations */,
+				EEB9567D1C61A08D004646DA /* AutoLayout */,
+				EEB956931C61A606004646DA /* Localization */,
+				EEB956801C61A08D004646DA /* Singleton */,
+				EEB956831C61A08D004646DA /* Thread */,
+				EEB956861C61A08D004646DA /* Universal */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		EEB9567A1C61A08D004646DA /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				EEB9567B1C61A08D004646DA /* JCHCATransform3D.h */,
+				EEB9567C1C61A08D004646DA /* JCHCATransform3D.m */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		EEB9567D1C61A08D004646DA /* AutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				EEB9567E1C61A08D004646DA /* JCHAutoLayoutProgram.h */,
+				EEB9567F1C61A08D004646DA /* JCHAutoLayoutProgram.m */,
+			);
+			path = AutoLayout;
+			sourceTree = "<group>";
+		};
+		EEB956801C61A08D004646DA /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				EEB956811C61A08D004646DA /* JCHSingleton.h */,
+				EEB956821C61A08D004646DA /* JCHSingleton.m */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		EEB956831C61A08D004646DA /* Thread */ = {
+			isa = PBXGroup;
+			children = (
+				EEB956841C61A08D004646DA /* JCHGCD.h */,
+				EEB956851C61A08D004646DA /* JCHGCD.m */,
+			);
+			path = Thread;
+			sourceTree = "<group>";
+		};
+		EEB956861C61A08D004646DA /* Universal */ = {
+			isa = PBXGroup;
+			children = (
+				EEB956871C61A08D004646DA /* image@2x~ipad.jpg */,
+				EEB956881C61A08D004646DA /* image@2x~iphone.jpg */,
+				EEB956891C61A08D004646DA /* image~ipad.jpg */,
+				EEB9568A1C61A08D004646DA /* image~iphone.jpg */,
+			);
+			path = Universal;
+			sourceTree = "<group>";
+		};
+		EEB956931C61A606004646DA /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				EEB956941C61A606004646DA /* image.jpg */,
+				EEB956961C61A606004646DA /* Localizable.strings */,
+				EEB956981C61A606004646DA /* JCHLocalization.h */,
+				EEB956991C61A606004646DA /* JCHLocalization.m */,
+				EEB9569A1C61A606004646DA /* LocalizationsUtil.h */,
+				EEB9569B1C61A606004646DA /* LocalizationsUtil.m */,
+				EEB9569C1C61A606004646DA /* NSString+Localizations.h */,
+				EEB9569D1C61A606004646DA /* NSString+Localizations.m */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		EEB956A51C61A6D2004646DA /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				EEB956A61C61A6D2004646DA /* NLCoreAnimation.h */,
+				EEB956A71C61A6D2004646DA /* NLCoreAnimation.m */,
+				EEB956A81C61A6D2004646DA /* NLCoreGraphics.h */,
+				EEB956A91C61A6D2004646DA /* NLCoreGraphics.m */,
+				EEB956AA1C61A6D2004646DA /* NLMath.h */,
+				EEB956AB1C61A6D2004646DA /* NLMath.m */,
+				EEB956AC1C61A6D2004646DA /* NLNote.h */,
+			);
+			path = Guide;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +364,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = EEB956371C619D24004646DA;
 			productRefGroup = EEB956411C619D24004646DA /* Products */;
@@ -246,8 +383,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEB956911C61A08D004646DA /* image~ipad.jpg in Resources */,
+				EEB956921C61A08D004646DA /* image~iphone.jpg in Resources */,
 				EEB956561C619D24004646DA /* LaunchScreen.storyboard in Resources */,
+				EEB956A01C61A606004646DA /* image.jpg in Resources */,
+				EEB956A11C61A606004646DA /* Localizable.strings in Resources */,
+				EEB9568F1C61A08D004646DA /* image@2x~ipad.jpg in Resources */,
 				EEB956531C619D24004646DA /* Assets.xcassets in Resources */,
+				EEB956901C61A08D004646DA /* image@2x~iphone.jpg in Resources */,
 				EEB9564E1C619D24004646DA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,9 +417,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEB9564B1C619D24004646DA /* ViewController.m in Sources */,
+				EEB9568C1C61A08D004646DA /* JCHAutoLayoutProgram.m in Sources */,
 				EEB956481C619D24004646DA /* AppDelegate.m in Sources */,
 				EEB956511C619D24004646DA /* hzch.xcdatamodeld in Sources */,
+				EEB956A31C61A606004646DA /* LocalizationsUtil.m in Sources */,
 				EEB956451C619D24004646DA /* main.m in Sources */,
+				EEB956A21C61A606004646DA /* JCHLocalization.m in Sources */,
+				EEB956AD1C61A6D2004646DA /* NLCoreAnimation.m in Sources */,
+				EEB9568B1C61A08D004646DA /* JCHCATransform3D.m in Sources */,
+				EEB956A41C61A606004646DA /* NSString+Localizations.m in Sources */,
+				EEB9568E1C61A08D004646DA /* JCHGCD.m in Sources */,
+				EEB956AF1C61A6D2004646DA /* NLMath.m in Sources */,
+				EEB9568D1C61A08D004646DA /* JCHSingleton.m in Sources */,
+				EEB956AE1C61A6D2004646DA /* NLCoreGraphics.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +479,24 @@
 				EEB956551C619D24004646DA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		EEB956941C61A606004646DA /* image.jpg */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEB956951C61A606004646DA /* en */,
+				EEB9569E1C61A606004646DA /* zh-Hans */,
+			);
+			name = image.jpg;
+			sourceTree = "<group>";
+		};
+		EEB956961C61A606004646DA /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEB956971C61A606004646DA /* en */,
+				EEB9569F1C61A606004646DA /* zh-Hans */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -502,6 +673,7 @@
 				EEB956721C619D24004646DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EEB956731C619D24004646DA /* Build configuration list for PBXNativeTarget "hzchTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +682,7 @@
 				EEB956751C619D24004646DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EEB956761C619D24004646DA /* Build configuration list for PBXNativeTarget "hzchUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +691,7 @@
 				EEB956781C619D24004646DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
