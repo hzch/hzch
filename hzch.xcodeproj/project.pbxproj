@@ -32,6 +32,8 @@
 		EEB956AD1C61A6D2004646DA /* NLCoreAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB956A71C61A6D2004646DA /* NLCoreAnimation.m */; };
 		EEB956AE1C61A6D2004646DA /* NLCoreGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB956A91C61A6D2004646DA /* NLCoreGraphics.m */; };
 		EEB956AF1C61A6D2004646DA /* NLMath.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB956AB1C61A6D2004646DA /* NLMath.m */; };
+		EEB956B31C61A90E004646DA /* NSString+HZCode.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB956B21C61A90E004646DA /* NSString+HZCode.m */; };
+		EEB956B51C61A978004646DA /* HZCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB956B41C61A978004646DA /* HZCodeTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +100,9 @@
 		EEB956AA1C61A6D2004646DA /* NLMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLMath.h; sourceTree = "<group>"; };
 		EEB956AB1C61A6D2004646DA /* NLMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLMath.m; sourceTree = "<group>"; };
 		EEB956AC1C61A6D2004646DA /* NLNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLNote.h; sourceTree = "<group>"; };
+		EEB956B11C61A90E004646DA /* NSString+HZCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HZCode.h"; sourceTree = "<group>"; };
+		EEB956B21C61A90E004646DA /* NSString+HZCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HZCode.m"; sourceTree = "<group>"; };
+		EEB956B41C61A978004646DA /* HZCodeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HZCodeTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +179,7 @@
 		EEB9565F1C619D24004646DA /* hzchTests */ = {
 			isa = PBXGroup;
 			children = (
+				EEB956B41C61A978004646DA /* HZCodeTests.m */,
 				EEB956601C619D24004646DA /* hzchTests.m */,
 				EEB956621C619D24004646DA /* Info.plist */,
 			);
@@ -195,6 +201,7 @@
 				EEB956A51C61A6D2004646DA /* Guide */,
 				EEB9567A1C61A08D004646DA /* Animations */,
 				EEB9567D1C61A08D004646DA /* AutoLayout */,
+				EEB956B01C61A8CB004646DA /* Encode */,
 				EEB956931C61A606004646DA /* Localization */,
 				EEB956801C61A08D004646DA /* Singleton */,
 				EEB956831C61A08D004646DA /* Thread */,
@@ -277,6 +284,15 @@
 				EEB956AC1C61A6D2004646DA /* NLNote.h */,
 			);
 			path = Guide;
+			sourceTree = "<group>";
+		};
+		EEB956B01C61A8CB004646DA /* Encode */ = {
+			isa = PBXGroup;
+			children = (
+				EEB956B11C61A90E004646DA /* NSString+HZCode.h */,
+				EEB956B21C61A90E004646DA /* NSString+HZCode.m */,
+			);
+			path = Encode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -419,6 +435,7 @@
 				EEB9564B1C619D24004646DA /* ViewController.m in Sources */,
 				EEB9568C1C61A08D004646DA /* JCHAutoLayoutProgram.m in Sources */,
 				EEB956481C619D24004646DA /* AppDelegate.m in Sources */,
+				EEB956B31C61A90E004646DA /* NSString+HZCode.m in Sources */,
 				EEB956511C619D24004646DA /* hzch.xcdatamodeld in Sources */,
 				EEB956A31C61A606004646DA /* LocalizationsUtil.m in Sources */,
 				EEB956451C619D24004646DA /* main.m in Sources */,
@@ -437,6 +454,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEB956B51C61A978004646DA /* HZCodeTests.m in Sources */,
 				EEB956611C619D24004646DA /* hzchTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
